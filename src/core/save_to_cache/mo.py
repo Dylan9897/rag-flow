@@ -8,7 +8,7 @@ from pymysql.converters import escape_string
 class MatrixOne:
     def __init__(self):
         self.db = pymysql.connect(
-            host='117.186.222.46',
+            host='',
             port=6001,
             user='root',
             password="111",
